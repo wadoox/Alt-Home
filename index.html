@@ -11,54 +11,170 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
     <title>Alt Home-Recherche D'hébergement</title>
 </head>
 
 <body>
     <header>
-        <p>Trouvez une chambre près de chez vous
-        </br>
-        Pour la nuit ou pour la semaine
-        </p>
+        <div class="block1">
+            <div class="Logo">
+                <h1>Alt Home</h1>
 
-        <form>
-            <i class="fa-solid fa-location-dot"></i><input id="localisation" type="text" placeholder="Destination">
-            <input type="submit"/>
-        </form>
+                <p>Trouvez une chambre près de chez vous
+                    </br>
+                    Pour la nuit ou pour la semaine
+                </p>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Hébergement</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="block2">
+            <form>
+                <i class="fa-solid fa-location-dot"></i><input id="localisation" type="text"
+                    placeholder="Destination"><button>Rechercher</button>
+            </form>
+
+            <p>Filtre</p>
+
+            <ul>
+                <li><i class="fa-solid fa-people-group"></i>Familiale</li>
+                <li><i class="fa-solid fa-euro-sign"></i>Économique</li>
+                <li><i class="fa-solid fa-dog"></i>Animaux autorisés</li>
+            </ul>
+        </div>
 
         <p><i class="fa-solid fa-circle-info"></i>Plus de 300 chambres dans votre ville</p>
 
-        <ul>
-            <li><i class="fa-solid fa-people-group"></i>Familiale</li>
-            <li><i class="fa-solid fa-euro-sign"></i>Économique</li>
-            <li><i class="fa-solid fa-dog"></i>Animaux autorisés</li>
-        </ul>
-
     </header>
 
-    <section id="Favoris">
-        <article></article>
-        <article></article>
-        <article></article>
-        <article></article>
-    </section>
+    <div id="main">
+        <section id="Favoris">
+            <p>Les favoris</p>
 
-    <section id="Hebergements">
-        <article></article>
-        <article></article>
-        <article></article>
-        <article></article>
-        <article></article>
-        <article></article>
-    </section>
+            <article>
+                <img src="image/best_bedroom_1.png" alt="Meilleur chambre 1" />
+                <p class="gras">Chambre parentale marine</p>
+                <p>Nuit à partir de 25€</p>
+                <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                    class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+            </article>
 
-    <section id="Luxe">
-        <article></article>
-        <article></article>
-        <article></article>
-    </section>
+            <article>
+                <img src="image/best_bedroom_2.png" alt="Meilleur chambre 2" />
+                <p class="gras">Chambre cocooning</p>
+                <p>Nuit à partir de 25€</p>
+                <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                    class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+            </article>
+
+            <article>
+                <img src="image/best_bedroom_3.png" alt="Meilleur chambre 3" />
+                <p class="gras">Chambre féérique</p>
+                <p>Nuit à partir de 30€</p>
+                <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                    class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+            </article>
+
+            <article>
+                <img src="image/best_bedroom_4.png" alt="Meilleur chambre 4" />
+                <p class="gras">Suite parentale</p>
+                <p>Nuit à partir de 50€</p>
+                <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                    class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+            </article>
+        </section>
+
+        <section id="Hebergements">
+            <p>Nos hébergements</p>
+
+            <article>
+                <img src="image/basic1.jpeg" alt="Hebergement 1"/>
+                <p>Chambre boisée</p>
+                <p>Nuit à partir de 20€</p>
+            </article>
+
+            <article>
+                <img src="image/basic2.jpeg" alt="Hebergement 2"/>
+                <p>Chambre princesse</p>
+                <p>Nuit à partir de 40€</p>
+            </article>
+
+            <article>
+                <img src="image/basic3.jpeg" alt="Hebergement 3"/>
+                <p>Suite avec vue</p>
+                <p>Nuit à partir de 80€</p>
+            </article>
+
+            <article>
+                <img src="image/basic4.jpg" alt="Hebergement 4"/>
+                <p>Chambre cozy</p>
+                <p>Nuit à partir de 48€</p>
+            </article>
+
+            <article>
+                <img src="image/basic5.jpg" alt="Hebergement 5"/>
+                <p>Chambre ouverte</p>
+                <p>Nuit à partir de 30€</p>
+            </article>
+
+            <article>
+                <img src="image/basic6.jpeg" alt="Hebergement 6"/>
+                <p>Chammbre bleue</p>
+                <p>Nuit à partir de 35€</p>
+            </article>
+        </section>
+
+        <aside id="Luxe">
+            <article>
+                <img src="image/luxe1.png" alt="Luxe 1"/>
+            </article>
+
+            <article>
+                <img src="image/luxe2.png" alt="Luxe 2"/>
+            </article>
+
+            <article>
+                <img src="image/luxe3.png" alt="Luxe 3"/>
+            </article>
+        </aside>
+    </div>
 
     <footer>
+        <div class="BlockFoot1">
+            <p>A propos</p>
+
+            <ul>
+                <li>Fonctionnement du site</li>
+                <li>Conditions générales de vente</li>
+                <li>Données et confidentialité</li>
+            </ul>
+        </div>
+
+        <div class="BlockFoot2">
+            <p>Nos hébergements</p>
+
+            <ul>
+                <li>Charte qualité</li>
+            </ul>
+        </div>
+
+        <div class="Assistance">
+            <p>Assistance</p>
+
+            <ul>
+                <li>Centre d'aide</li>
+                <li>Nous contacter</li>
+            </ul>
+        </div>
     </footer>
 
 </body>
