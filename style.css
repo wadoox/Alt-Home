@@ -4,3 +4,92 @@ body {
 .block1 h1 {
     font-family: 'Caveat Brush', cursive;
 }
+header .block1 {
+    display: flex;
+    justify-content: space-between;
+}
+header .block1 h1 {
+    margin: 0px;
+    margin-top: 10px;
+}
+header .block1 .textelogo{
+    line-height: 30px;
+}
+header .block1 nav ul li {
+    display: inline-block;
+    padding: 5px 10px;
+}
+header .block1 nav ul li a {
+    text-decoration: none;
+}
+header .block2 {
+    display: flex;
+    justify-content: space-between;
+}
+header .block2 {
+    align-items: center;
+    margin-top: 15px;
+}
+header .block2 .formulaire {
+    width: 40%;
+}
+header .block2 form #localisation {
+    padding: 6px;
+    margin: 5px 0px 5px 0px;
+    border-right-style: none;
+    border-left-style: none;
+    border-width: 0.5px;
+    border-top-width: 1px;
+    border-color: rgb(192, 191, 191);
+}
+header .block2 form i {
+    background-color: rgb(192, 191, 191);
+    border-style: none;
+    border-radius: 10px 0px 0px 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 8px;
+}
+header .block2 .button {
+    background-color: blue;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+    border-style: none;
+    padding: 7px;
+}
+header .block2 .filtre {
+    flex: 2;
+    text-align: center;
+    padding-right: 15px;
+    margin: 0%;
+    font-weight: bold;
+}
+header .block2 ul {
+    width: 45%;
+    padding: 0px;
+    margin: 0px;
+}
+header .block2 ul li {
+    display: inline-block;
+    border-color: rgb(192, 191, 191);
+    border-style: solid;
+    border-left: none;
+    border-width: 0.1px;
+    padding: 0px 10px 0px 0px;
+    margin-left: 30px;
+    border-radius: 26px;
+}
+header .block2 ul li i {
+    background-color: blue;
+    color: white;
+    margin-right: 6px;
+    padding: 8px;
+    border-radius: 25px;
+}
+header p {
+    margin: 0px;
+}
+header p i {
+    color: blue;
+}
