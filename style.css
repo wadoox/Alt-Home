@@ -144,10 +144,13 @@ header p i {
     padding-bottom: 20px;
     padding-left: 10px;
 }
-
+.main .hebergements {
+    width: 70%;
+}
 .main .hebergements .second2 {
     background-color: rgb(242, 242, 242);
     border-radius: 25px;
+    margin: 20px 20px 20px 20px;
 }
 .main .hebergements .textehebergements {
     text-align: center;
@@ -155,27 +158,48 @@ header p i {
     font-weight: bold;
     background-color: white;
     padding: 10px;
+    margin: 20px 20px 20px 20px;
     border-style: solid;
     border-radius: 25px;
     border-color: rgb(242, 242, 242);
 }
 .main .hebergements article {
-
+    width: 30%;
 }
 .main .hebergements article img {
     display: flex;
     text-align: center;
     margin-right: 0px;
-    width: 20%
+    width: 60%
 }
 .second {
     display: flex;
 }
+.second .hebergements .sb1 {
+    display: flex;
+    flex-wrap: wrap;
+}
 .main .luxe {
     display: flex;
     flex-direction: column;
+    flex: 1;
     height:max-content;
+    background-color: rgb(242, 242, 242);
+    border-radius: 25px;
+    margin: 10px;
+}
+.main .luxe .texteluxe {
+    text-align: center;
+}
+.main .luxe article {
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    border-radius: 25px;
+    margin: 10px;
 }
 .main .luxe article img {
-    width: 20%;
+    padding: 10px;
+    width: 300px;
+    height: 200px;
 }
